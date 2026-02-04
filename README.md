@@ -12,4 +12,15 @@ To get started, follow these steps:
    ```bash
    uv sync
    ```
-3. Once all the dependencies are installed (you may have issues with GPU drivers), simply check the [notebook provided](./README.ipynb) to get started with your hackathon project.
+3. Activation your virtual environment. Based on where you are running this (local machine, cloud instance, etc.), the command may vary. Here are some common examples:
+   - For local machine (Linux/Mac):
+     ```bash
+     source .venv/bin/activate
+     ```
+   - For local machine (Windows):
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - For cloud instances, refer to the specific instructions provided by your cloud service.
+
+4. Once all the dependencies are installed (you may have issues with GPU drivers), simply check the [notebook provided](./README.ipynb) to get started with your hackathon project.
